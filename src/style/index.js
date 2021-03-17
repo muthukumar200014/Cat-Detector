@@ -3,25 +3,26 @@ import styled from 'styled-components'
 export const Layout = styled.div`
     height: 100%;
     width: 100%;
+    background-image: url('http://i.stack.imgur.com/kx8MT.gif');
 
     display: grid;
     place-items: center;
 
-    background: #F5F8FF;
+
 `
 
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
-    background: #fff;
+    background: white;
     padding: 36px 48px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     border-radius: 20px;
     text-align: center;
 
-    p {
+    {
         margin-top: -10px;
-        color: #777;
+        color: black;
     }
 `
 
@@ -31,6 +32,9 @@ export const BoxUpload = styled.div`
     place-items: center;
     border: 1px dashed #799CD9;
     /* padding: 36px 48px; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
     position: relative;
 
     height: 350px;
